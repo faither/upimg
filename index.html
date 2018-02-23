@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上传图片</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="webuploader.css"/>
+<!--引入JS-->
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="webuploader.html5only.js"></script>
+<div id="uploader-demo">
+    <!--用来存放item-->
+    <div id="fileList" class="uploader-list"></div>
+    <div id="filePicker">选择图片</div>
+</div>
+<script>
+// 初始化Web Uploader
+var uploader = WebUploader.create({
+    // 选完文件后，是否自动上传。
+    auto: true,
+    // 文件接收服务端。
+    server: 'up.php',
+    // 选择文件的按钮。可选。
+    // 内部根据当前运行是创建，可能是input元素，也可能是flash.
+    pick: '#filePicker',//
+    //设置文件上传域的name
+    fileVal:'filePicker',
+    // 只允许选择图片文件。
+    accept: {
+        title: 'Images',
+        extensions: 'gif,jpg,jpeg,bmp,png',
+        mimeTypes: 'image/*'
+    },
+});
+//上传成功后的回调
+uploader.on( 'uploadSuccess', function(file) {
+  $('#fileList').append('<img src="'+file.name+'"/>');
+})
+</script>
+</body>
+</html>
