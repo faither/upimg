@@ -1,0 +1,491 @@
+@charset "UTF-8";
+@import url(style.css);
+.reset_background{
+  width: 100%;
+  height: 100%;
+  background:url(../images/black_bao2.jpg) no-repeat;
+  background-size: 100% 100%;
+  /*display: none;*/
+}
+.reset_background .reset_logo{
+  width: 100%;
+  height: 2.08rem;
+  text-align: center;
+
+}
+.reset_background .reset_logo img{
+  width: 6.15rem;
+  height: 2.08rem;
+  margin-top: 0.8rem;
+  }
+.reset_background .reset_text1{
+  width: 100%;
+  height: 1.90rem;
+  text-align: center;
+}
+.reset_background .reset_text1 img{
+  width: 5.7rem;
+  height:1.90rem;
+  margin-top: 1.2rem;
+  }
+.reset_background .reset_text2{
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+
+}
+.reset_background .reset_text2 img{
+  width: 11.06rem;
+  height:2.5rem;
+  margin-top: 1.5rem;
+  }
+.reset_background .reset_text3{
+  width: 100%;
+  height: 1.90rem;
+  text-align: center;
+
+}
+.reset_background .reset_text3 img{
+  width: 10rem;
+  height:1.90rem;
+  margin-top: 1.2rem;
+  }
+.reset_background .reset_area{
+  width: 100%;
+  height: 6.5rem;
+  text-align: center;
+
+}
+.reset_background .reset_area img{
+  width: 10.31rem;
+  height:6.5rem;
+  margin-top:2rem;
+  }
+.reset_background .reset_close{
+  width: 100%;
+  height: 2.07rem;
+  text-align: center;
+
+}
+.reset_background .reset_close img{
+  width: 5.28rem;
+  height:2.07rem;
+  margin-top:2.2rem;
+  }
+/*奖品没了*/
+.prize_background{
+  width: 100%;
+  height: 100%;
+  background:url(../images/finish_prize.jpg) no-repeat;
+  background-size: 100% 100%;
+  /*display: none;*/
+}
+.prize_background .prize_logo{
+  width: 100%;
+  height: 2.08rem;
+  text-align: center;
+
+}
+.prize_background .prize_logo img{
+  width: 6.15rem;
+  height: 2.08rem;
+  margin-top: 0.8rem;
+  }
+.prize_background .prize_text1{
+  width: 11.72rem;
+  height:2.2rem;
+  background:url(../images/has_prize.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -5.86rem;
+  top:3.2rem;
+  /*display: none;*/
+}
+.prize_background .prize_text3{
+  width: 12.9rem;
+  height:2.2rem;
+  background:url(../images/prize.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -6.45rem;
+  top:3.2rem;
+  
+}
+.prize_background .prize_area{
+  width: 100%;
+  height:9rem;
+  text-align: center;
+
+}
+.prize_background .prize_area img{
+  width: 10.10rem;
+  height:9rem;
+  margin-top:3.8rem;
+  }
+.game_background{
+  width: 100%;
+  height: 100%;
+  background:url(../images/black_bao2.jpg) no-repeat;
+  background-size: 100% 100%;
+  /*display: none;*/
+}
+.game_background .ganme_logo{
+  width: 100%;
+  height: 2.08rem;
+  text-align: center;
+
+}
+.game_background .ganme_logo img{
+  width: 6.15rem;
+  height: 2.08rem;
+  margin-top: 0.8rem;
+  }
+.game_background .game_text1{
+  width: 100%;
+  height: 1.90rem;
+  text-align: center;
+
+}
+.game_background .game_text1 img{
+  width: 9.79rem;
+  height:1.90rem;
+  margin-top: 1.2rem;
+  }
+.game_background .game_text2{
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+
+}
+.game_background .game_text2 img{
+  width: 11.06rem;
+  height:2.5rem;
+  margin-top: 1.5rem;
+  }
+.game_background .game_area{
+  width: 100%;
+  height: 6.5rem;
+  text-align: center;
+
+}
+.game_background .game_area img{
+  width: 10.31rem;
+  height:6.5rem;
+  margin-top:2rem;
+  }
+.game_background .game_start{
+  width: 4.23rem;
+  height:2.07rem;
+  background:url(../images/start.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 50%;
+  margin-left: -2.115rem;
+  -webkit-animation: twinkling 1s infinite ease-in-out; 
+}
+@-webkit-keyframes twinkling{    /*透明度由0到1*/
+   0%{
+
+       opacity:0.5; /*透明度为0*/
+
+     }
+
+    50%{
+
+       opacity:1; /*透明度为1*/
+
+    }
+    100%{
+      opacity:0.5;
+    }
+
+  }
+.black_num1{
+  width: 100%;
+  height: 100%;
+  background:url(../images/black_bao1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.jijie_btn{
+  width: 4.21rem;
+  height: 1.85rem;
+  background:url(../images/jijie.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -2.105rem;
+  bottom:-0.1rem;
+  -webkit-animation: twinkling 1s infinite ease-in-out; 
+}
+.jijie_content{
+  width: 100%;
+  height: 100%;
+  background:url(../images/black_bao2.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  display: none;
+}
+.jijie_content .jijie_logo{
+  width: 6.15rem;
+  height: 2.08rem;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -3.075rem;
+  top:0.8rem;
+}
+.jijie_content .jijie_text{
+  width: 10.66rem;
+  height: 1.8rem;
+  background:url(../images/has_one.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -5.33rem;
+  top:3.5rem;
+}
+.jijie_content .hero_people{
+  width: 10.1rem;
+  height: 9rem;
+  background:url(../images/ren_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -5.05rem;
+  top:5.4rem;
+}
+.jijie_content .jiantou{
+  width:2.46rem;
+  height: 2.4rem;
+  background:url(../images/down.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -1.23rem;
+  bottom:0.5rem;
+  animation:gogogo 1s infinite linear ;
+  -webkit-animation:gogogo 1s infinite linear ;
+}
+@-webkit-keyframes gogogo {
+  0%{
+    bottom:0.5rem;
+  }
+  100%{
+     bottom:0.2rem;
+  }
+}
+@keyframes gogogo {
+  0%{
+    bottom:0.5rem;
+  }
+  100%{
+     bottom:0.2rem;
+  }
+}
+.jijie_content .hero_people .hero_box{
+  width: 100%;
+  height:100%;
+  position: relative;
+}
+.jijie_content .hero_people .hero_box .hero_num1{
+  width: 3.05rem;
+  height: 3.05rem;
+  background:url(../images/num1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right:1.36rem;
+  bottom: 0rem;
+  display: none;
+}
+.jijie_content .hero_people .hero_box .hero_num2{
+  width: 3.05rem;
+  height: 3.05rem;
+  background:url(../images/num2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -1.48rem;
+  top: -0.1rem;
+  display: none;
+}
+.jijie_content .hero_people .hero_box .hero_num3{
+  width: 3.05rem;
+  height: 3.05rem;
+  background:url(../images/num3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:1.38rem;
+  bottom: -0.25rem;
+  display: none;
+}
+.jijie_content .hero_people .hero_box .hero_num4{
+  width: 3.05rem;
+  height: 3.05rem;
+  background:url(../images/num4.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:0rem;
+  top: 2.2rem;
+  display: none;
+}
+.jijie_content .hero_people .hero_box .hero_num5{
+  width: 3.05rem;
+  height: 3.05rem;
+  background:url(../images/num5.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right:0rem;
+  top: 2.2rem;
+  display: none;
+}
+.jijie_content .hero_people .hero_box .hero_num6{
+  width: 2.86rem;
+  height: 3.19rem;
+  background:url(../images/all.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-left:-1.43rem;
+  margin-top: -1.45rem;
+  display: none;
+}
+.game_map_tips{
+  width: 100%;
+  height: 100%;
+  background:url(../images/black_bao2.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  display: none;
+}
+.game_map_tips .game_map_logo{
+  width: 6.15rem;
+  height: 2.08rem;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -3.075rem;
+  top:0.8rem;
+}
+.game_map_tips  .game_text2 {
+  width: 11.06rem;
+  height: 2.5rem;
+  background:url(../images/game_sm.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -5.33rem;
+  top:6rem;
+}
+.game_map_tips .game_map_text1{
+  width: 10.66rem;
+  height:2.52rem;
+  background:url(../images/next_hero.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:50%;
+  margin-left: -5.33rem;
+  top:3rem;
+}
+.game_map_tips .game_map_area1{
+  width: 10.36rem;
+  height:7rem;
+  background:url(../images/map.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -5.18rem;
+  top:9.2rem;
+}
+.game_map_tips .game_map_area1 .game_map_red1{
+  width:0.5rem;
+  height:0.5rem;
+  background: red;
+  position: absolute;
+  top:1.55rem;
+  left:0.55rem;
+  border-radius: 50%;
+  animation:shan 1s infinite linear ;
+  -webkit-animation:shan 1s infinite linear ;
+}
+.game_map_tips .game_map_area1 .game_map_red2{
+  width:0.5rem;
+  height:0.5rem;
+  background: red;
+  position: absolute;
+  top:1.68rem;
+  left:2.6rem;
+  border-radius: 50%;
+  animation:shan 1s infinite linear ;
+  -webkit-animation:shan 1s infinite linear ;
+}
+.game_map_tips .game_map_area1 .game_map_red3{
+  width:0.5rem;
+  height:0.5rem;
+  background: red;
+  position: absolute;
+  top:3rem;
+  left:3.95rem;
+  border-radius: 50%;
+  animation:shan 1s infinite linear ;
+  -webkit-animation:shan 1s infinite linear ;
+}
+.game_map_tips .game_map_area1 .game_map_red4{
+  width:0.5rem;
+  height:0.5rem;
+  background: red;
+  position: absolute;
+  top:4.6rem;
+  left:2.9rem;
+  border-radius: 50%;
+  animation:shan 1s infinite linear ;
+  -webkit-animation:shan 1s infinite linear ;
+}
+.game_map_tips .game_map_area1 .game_map_red5{
+  width:0.5rem;
+  height:0.5rem;
+  background: red;
+  position: absolute;
+  top:2.7rem;
+  left:7.48rem;
+  border-radius: 50%;
+  animation:shan 1s infinite linear ;
+  -webkit-animation:shan 1s infinite linear ;
+}
+.game_map_tips .game_map_area1 .game_map_red6{
+  width:0.5rem;
+  height:0.5rem;
+  background: red;
+  position: absolute;
+  top:4.7rem;
+  left:7.5rem;
+  border-radius: 50%;
+  animation:shan 1s infinite linear ;
+  -webkit-animation:shan 1s infinite linear ;
+}
+@-webkit-keyframes shan {
+  0%{
+  width:0.2rem;
+  height:0.2rem;
+  margin-left: 0.15rem;
+  margin-top: 0.15rem;
+  }
+  100%{
+  width:0.5rem;
+  height:0.5rem;
+}
+@keyframes shan {
+  0%{
+  width:0.2rem;
+  height:0.2rem;
+  margin-left: 0.15rem;
+  margin-top: 0.15rem;
+  }
+  100%{
+  width:0.5rem;
+  height:0.5rem;
+}
